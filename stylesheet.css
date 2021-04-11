@@ -1,0 +1,96 @@
+body {
+	background-color:darkgray;
+}
+
+h1,h3,h5,h6 {
+	color:darkblue;
+	text-align:center;
+}
+h2,h4 {
+	color:white;
+	text-align:center;
+}
+title {
+	text-color: white;
+}
+p{
+	color:darkgray;
+}
+header {
+	background-color:darkblue;
+	padding-bottom:20px;
+}
+footer {
+   padding:3px;
+   text-align:center;
+   background-color:darkblue;
+   text-color:white;
+   
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+img {
+	border: 5px solid #555;
+	align:center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div.gallery {
+  margin: 5px;
+  border: 4px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 8px;
+  background-color: darkgray;
+  padding: 8px;
+  content-align:center;
+}
+
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  content-align:center;
+  grid-template-rows: 80px 200px;
+  text-color: black;
+}
+hr {
+  border: 2px solid darkblue;
+}
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
